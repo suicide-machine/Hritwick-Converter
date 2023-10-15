@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="abc.css" />
+  </head>
+  <body>
+    <h1>Hritwick's Converter</h1>
+    <div class="container">
+      <div>
+        <form class="form">
+          <div class="a">
+            <label for="">Enter Pressure</label>
+            <input type="number" id="a" placeholder="" required />
+            <span>kg/cm^2</span>
+          </div>
+          <div class="b">
+            <label for="">Enter Temperature</label>
+            <input type="number" id="b" placeholder="" required />
+            <span>deg C°</span>
+          </div>
+          <div class="c">
+            <label for="">Enter mass flow rate</label>
+            <input type="number" id="c" placeholder="" required />
+            <span>TPH</span>
+          </div>
+          <div class="d">
+            <label for="">Enter Thermal Heat Capacityz</label>
+            <input type="number" id="d" placeholder="" required />
+            <span>KCal/Kg</span>
+          </div>
+
+          <div>
+            <button class="btn">Convert Me</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="res-container">
+        <form action="" class="form">
+          <div class="">
+            <label for=""> Pressure</label>
+            <input type="text" id="a1" readonly />
+            <span>bar</span>
+          </div>
+          <div class="b">
+            <label for=""> Temperature</label>
+            <input type="text" id="b1" readonly />
+            <span>K</span>
+          </div>
+          <div class="c">
+            <label for=""> mass flow rate</label>
+            <input type="text" id="c1" readonly />
+            <span>Kg/Sec</span>
+          </div>
+          <div class="d">
+            <label for=""> Energy</label>
+            <input type="text" id="d1" readonly />
+            <span>Joules</span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="abc.js"></script>
+  </body>
+</html>
